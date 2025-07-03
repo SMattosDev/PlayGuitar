@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #cce6f4;
+    border-bottom: 10px solid #7db9c2;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#titulo {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+}
+
+#pesquisar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search {
+    height: 35px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+}
+
+#botao {
+    background-color: #7db9c2;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #65a7b1;
+}
+
+#lupa {
+    height: 20px;
+    width: 20px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#quem_somos,
+#contatos {
+    /* Deixa a transformação suave em 0.3s */
+    transition: transform 0.3s ease;
+}
+
+#quem_somos:hover,
+#contatos:hover {
+    /* Aumenta o tamanho do elemento em 5% */
+    transform: scale(1.05);
+}
+
+#titulo2 {
+    padding: 20px;
+    margin-left: 140px;
+}
+
+.grade-musicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.musica {
+    background-color: #edf5f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.link-musica {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.musica:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.musica h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.musica p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.tocadas {
+    font-weight: bold;
+    color: #777c77;
+    margin-top: 8px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #cce6f4;
+    margin-top: auto;
+}
