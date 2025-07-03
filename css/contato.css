@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    height: 100px;
+    background-color: #cce6f4;
+    border-bottom: 10px solid #7db9c2;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.cabecalho h1 {
+    font-size: 25px;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 10px 45px;
+    background-color: #dfecf3;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#titulo {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    border-radius: 16px;
+}
+
+.formulario button {
+    background-color: #7db9c2;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+    margin-bottom: 5px;
+    transition: all 1s;
+}
+
+.formulario button:hover {
+    background-color: #40747c;
+    border-radius: 16px;
+}
+
+textarea {
+    /* reside: define se um elemento é redimensionável pelo usuário */
+    resize: none;
+    /*overflow-y controla o que acontece quando o conteúdo passa do tamanho da caixa na vertical*/
+    overflow-y: auto;
+}
+
+/* Página do Obrigado */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #cce6f4;
+    flex-direction: column;
+}
+
+#text {
+    font-family: 45px;
+}
+
+#paragrafo {
+    margin-bottom: 50px;
+}
+
+#btn {
+    padding: 15px 55px;
+    background: #7db9c2;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+#btn:hover {
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #cce6f4;
+    margin-top: auto;
+}

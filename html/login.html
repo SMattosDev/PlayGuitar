@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - PlayGuitar</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login" onsubmit="logar(event)">
+                <h3>Bem-vindo!</h3>
+                <input type="text" placeholder="Usuário" id="usuario" required minlength="3" maxlength="15">
+                <input type="password" placeholder="Senha" id="senha" required minlength="4" maxlength="15">
+                <a href="cadastro.html">Não possui uma conta? Crie uma</a>
+                <br><br>
+                <input type="submit" value="Entrar" onclick="logar(); return false;">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
